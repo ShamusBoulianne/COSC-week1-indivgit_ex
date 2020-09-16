@@ -8,9 +8,10 @@ def revIntSort(x):
     x.sort(reverse=True)
     return x
 
+# test
 
 x = [3, 2, 5, 1, 4]
-print(intSort(x))
+print(intSort(x)) 
 print(revIntSort(x))
 
 class testSorting(unittest.TestCase):
